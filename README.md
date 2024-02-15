@@ -111,19 +111,19 @@ The encoder handels thease properties :
 
 ```C++
  AntBase antHandler;      // for getting the DNAs
- strvec fileData;      // the data we will get from prents.txt
+ strvec fileData;         // the data we will get from prents.txt
 
- Queen queens;       // queens that we will use
- int queensCount;      // ants count
- strvec queenDnas;      // queens dna
+ Queen queens;            // queens that we will use
+ int queensCount;         // ants count
+ strvec queenDnas;        // queens dna
 
- Worker workers;       // workers that we will use
- int workersCount;      // ants count
- strvec workerDnas;      // workers dna
+ Worker workers;          // workers that we will use
+ int workersCount;        // ants count
+ strvec workerDnas;       // workers dna
 
- strhash children;      // the children from breeding workers and queens
- strque city;       // the city that we will getting it from user
- strque validCity;      // this will be our output
+ strhash children;        // the children from breeding workers and queens
+ strque city;             // the city that we will getting it from user
+ strque validCity;        // this will be our output
 ```
 
 Encoder will first initialize the queen and worker ants, then start the breeding. Then it will get the city entry. After Validating each citizen and delete the outsiders we save them to the **Order** file.
