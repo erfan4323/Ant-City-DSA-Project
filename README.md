@@ -147,4 +147,4 @@ For the visualisation I used Raylib and Raygui. The Program has 4 parts :
     3. [Raylib](https://github.com/raysan5/raylib)
     4. [RayGui](https://github.com/raysan5/raygui)
 
-2. If anything did not work in the intended way, define DEBUG above all to access logging, I will improve them for better logging.
+2. If anything did not work in the intended way, define **DEBUG** above all to access logging, I will improve them for better logging.
