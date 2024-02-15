@@ -56,11 +56,9 @@ public:
 	std::vector<T> getAllValues() const {
 		std::vector<T> values;
 
-		for (const auto& bucket : table) {
-			for (const T& value : bucket) {
+		for (const auto& bucket : table)
+			for (const T& value : bucket)
 				values.push_back(value);
-			}
-		}
 
 		return values;
 	}
@@ -82,6 +80,6 @@ public:
 				std::cout << '\n';
 			}
 		}
-}
+	}
 #endif // DEBUG
 };
