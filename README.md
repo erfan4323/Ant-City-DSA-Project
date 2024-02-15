@@ -137,3 +137,14 @@ For the visualisation I used Raylib and Raygui. The Program has 4 parts :
 ![Program](program.png)
 
 **Encoder** and **Decoder** are explained above. I created a box for **parent.txt** that previews the values. The **Input** field would gets each citizen to be validated, you only have to write them one b one then hit enter.
+
+# Notes
+
+1. To use this project you should have four libraries.
+
+    1. [Doctest](https://github.com/doctest/doctest)
+    2. [Fmt](https://github.com/fmtlib/fmt)
+    3. [Raylib](https://github.com/raysan5/raylib)
+    4. [RayGui](https://github.com/raysan5/raygui)
+
+2. If anything did not work in the intended way, define DEBUG above all to access logging, I will improve them for better logging.
