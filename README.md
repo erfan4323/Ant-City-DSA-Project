@@ -26,17 +26,17 @@ Delivery requirements:
 
 In this project, you must be able to provide two programs: Encoder and Decoder.
 
-The **Encoder** program ought to read worker and queen ants from the *"txt.parents"* file and the entry queue from standard input.
+The **Encoder** program ought to read worker and queen ants from the *"parents.txt"* file and the entry queue from standard input.
 
 After eliminating the outsider ants from the queue, it should keep the ideal order of ant children entry into the city in a file labeled *"order"*
 
-The **Decoder** program should be able to decode the *"order"* file using the *"txt.parents"* file and print all offspring in the correct order to the standard output.
+The **Decoder** program should be able to decode the *"order"* file using the *"parents.txt"* file and print all offspring in the correct order to the standard output.
 
 the primary goal of this project is to shrink the size of the *"order"* file.
 
 Input and output:
 
-The *"txt.parents"* file provides the number of queen and worker ants first, then their strings. In different lines, **queen ants come first**.
+The *"parents.txt"* file provides the number of queen and worker ants first, then their strings. In different lines, **queen ants come first**.
 
 In standard **input**, the first line decides the queue length, and each following line contains the string of each ant.
 
@@ -82,7 +82,7 @@ b
 For this project I built two custom data container and use one standar container:
 
  1. **std vector** : for quick storing data, even for file handling and string manipulation.
- 2. **Hash Set** : to store **ant dna's and the children** from breeding. I used this to access, inset, delete with the time complexity of **O(1)**.
+ 2. **Hash Set** : to store **ant dna's and the children** from breeding. I used this to access, insert, delete with the time complexity of **O(1)**.
  3. **Queue** : for the **city structure**. Almost everything done with the time complexity of **O(1)**.
 
 ### Ants
